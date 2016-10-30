@@ -28,3 +28,11 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+**/target/
+/target/
+*/target/*
+.classpath
+.project
+.settings
+*.log
+*/test-output/*
