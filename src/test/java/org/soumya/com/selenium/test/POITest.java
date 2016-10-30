@@ -26,7 +26,7 @@ public class POITest {
 	}
 	@Test(dataProvider = "getData")
 	public void testPOI(String username,String password) throws IOException{
-		System.out.println("username : "+username+"  "+ "password: "+password);
+		System.out.println("user : "+username+"  "+ "password: "+password);
 		
 	}
 	
