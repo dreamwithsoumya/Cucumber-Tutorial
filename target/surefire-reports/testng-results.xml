@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="14608" started-at="2016-10-27T06:40:25Z" finished-at="2016-10-27T06:40:39Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="14608" started-at="2016-10-27T06:40:25Z" finished-at="2016-10-27T06:40:39Z">
+      <class name="org.soumya.com.selenium.test.SeleniumTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:org.soumya.com.selenium.test.SeleniumTest@13a57a3b]" name="test" duration-ms="4569" started-at="2016-10-27T02:40:34Z" finished-at="2016-10-27T02:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- org.soumya.com.selenium.test.SeleniumTest -->
+      <class name="org.soumya.com.selenium.test.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.soumya.com.selenium.test.NewTest@69d9c55]" name="beforeTest" is-config="true" duration-ms="2700" started-at="2016-10-27T02:40:25Z" finished-at="2016-10-27T02:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:org.soumya.com.selenium.test.NewTest@69d9c55]" name="testEasy" duration-ms="6193" started-at="2016-10-27T02:40:28Z" finished-at="2016-10-27T02:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEasy -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.soumya.com.selenium.test.NewTest@69d9c55]" name="afterTest" is-config="true" duration-ms="1121" started-at="2016-10-27T02:40:38Z" finished-at="2016-10-27T02:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.soumya.com.selenium.test.NewTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

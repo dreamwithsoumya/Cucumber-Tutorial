@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="862" started-at="2016-10-30T05:34:39Z" finished-at="2016-10-30T05:34:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="862" started-at="2016-10-30T05:34:39Z" finished-at="2016-10-30T05:34:40Z">
+      <class name="org.soumya.com.selenium.test.POITest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.soumya.com.selenium.test.POITest@59f99ea]" name="setUp" is-config="true" duration-ms="13" started-at="2016-10-30T01:34:39Z" finished-at="2016-10-30T01:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPOI(java.lang.String, java.lang.String)[pri:0, instance:org.soumya.com.selenium.test.POITest@59f99ea]" name="testPOI" duration-ms="13" started-at="2016-10-30T01:34:40Z" data-provider="getData" finished-at="2016-10-30T01:34:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arimita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[misra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPOI -->
+        <test-method status="PASS" signature="testPOI(java.lang.String, java.lang.String)[pri:0, instance:org.soumya.com.selenium.test.POITest@59f99ea]" name="testPOI" duration-ms="6" started-at="2016-10-30T01:34:40Z" data-provider="getData" finished-at="2016-10-30T01:34:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[diptanjan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPOI -->
+        <test-method status="PASS" signature="testPOI(java.lang.String, java.lang.String)[pri:0, instance:org.soumya.com.selenium.test.POITest@59f99ea]" name="testPOI" duration-ms="5" started-at="2016-10-30T01:34:40Z" data-provider="getData" finished-at="2016-10-30T01:34:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jaideep ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mitra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPOI -->
+      </class> <!-- org.soumya.com.selenium.test.POITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

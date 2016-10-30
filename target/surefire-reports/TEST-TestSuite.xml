@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="TestSuite" time="10.762" errors="0" skipped="0">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="WLS_HOME" value="C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="MEM_ARGS" value="-Xms256m -Xmx512m -XX:CompileThreshold=8000 -XX:PermSize=128m  -XX:MaxPermSize=256m"/>
+    <property name="LOGONSERVER" value="\\DLE6410-PC"/>
+    <property name="COMMON_JVM_ARGS" value="-Dweblogic.alternateTypesDirectory=C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\oracle.ossoiap_12.1.3,C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\oracle.oamprovider_12.1.3,C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\oracle.jps_12.1.3"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="JAVA_VENDOR" value="Oracle"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_91\jre"/>
+    <property name="MODULES_DIR" value="C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://localhost:7001/jenkins/"/>
+    <property name="SERVER_NAME" value="AdminServer"/>
+    <property name="noQuotesParam" value="doExit"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+    <property name="DERBY_SYSTEM_HOME" value="C:\Oracle\MIDDLE~1\ORACLE~1\USER_P~1\domains\BASE_D~1\common\db"/>
+    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="JAVA_USE_64BIT" value="true"/>
+    <property name="WEBLOGIC_CLASSPATH" value="C:\PROGRA~1\Java\JDK18~1.0_9\lib\tools.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\lib\weblogic_sp.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\lib\weblogic.jar;C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\net.sf.antcontrib_1.1.0.0_1-0b3\lib\ant-contrib.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\modules\features\oracle.wls.common.nodemanager_2.0.0.0.jar"/>
+    <property name="USERDOMAIN" value="DLE6410-PC"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="DERBY_DEBUG_LEVEL" value="0"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="JOB_NAME" value="CucumberTutorial"/>
+    <property name="COMPUTERNAME" value="DLE6410-PC"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="SUN_JAVA_HOME" value="C:\PROGRA~1\Java\JDK18~1.0_9"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="MEM_DEV_ARGS" value="-XX:CompileThreshold=8000 -XX:PermSize=128m "/>
+    <property name="user.name" value="DLE4310"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 37 Stepping 5, GenuineIntel"/>
+    <property name="WL_USE_AMD64DLL" value="true"/>
+    <property name="DERBY_CLIENT_CLASSPATH" value="C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\common\derby\lib\derbyclient.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\common\derby\lib\derby.jar"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\DLE4310\AppData\Local"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-CucumberTutorial-1"/>
+    <property name="UTILS_MEM_ARGS" value="-Xms32m -Xmx1024m -XX:MaxPermSize=256m"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main C:\apache-maven-3.3.9 C:\Oracle\Middleware\Oracle_Home\user_projects\domains\base_domain\servers\AdminServer\tmp\_WL_user\jenkins\w6ea4m\war\WEB-INF\lib\remoting-2.59.jar C:\Users\DLE4310\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.7.jar C:\Users\DLE4310\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.7.jar 65478"/>
+    <property name="HUDSON_URL" value="http://localhost:7001/jenkins/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="f09af314ce0bdfeb"/>
+    <property name="MEM_MAX_PERM_SIZE" value="-XX:MaxPermSize=256m"/>
+    <property name="BEA_HOME" value="C:\Oracle\MIDDLE~1\ORACLE~1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_91/bin;;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\native\win\x64;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\bin;C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\org.apache.ant_1.9.2\bin;C:\PROGRA~1\Java\JDK18~1.0_9\jre\bin;C:\PROGRA~1\Java\JDK18~1.0_9\bin;C:\PROGRA~1\Java\JRE18~1.0_1\bin\server;C:\PROGRA~1\Java\JRE18~1.0_1\bin;C:\PROGRA~1\Java\JRE18~1.0_1\lib\amd64;C:\PROGRA~3\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\112~1.0\server\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WINDOW~1\v1.0\;C:\PROGRA~2\Skype\Phone\;C:\PROGRA~2\MySQL\MYSQLF~1.5\;C:\PROGRA~2\MySQL\MYSQLF~1.5\DOCTRI~1\;C:\Users\DLE4310\DOWNLO~1\WILDFL~1.ALP\bin;C:\PROGRA~1\MongoDB\Server\3.2\bin;C:\PROGRA~2\Deployd\bin;C:\PROGRA~1\nodejs\;C:\PROGRA~1\Java\JDK18~1.0_9\bin;C:\APACHE~1.9\bin;C:\PROGRA~1\TORTOI~1\bin;C:\Users\DLE4310\AppData\Roaming\npm;C:\Users\DLE4310\AppData\Local\MICROS~1\WINDOW~1;C:\PROGRA~2\MICROS~4\bin;C:\Users\DLE4310\DOWNLO~1\ECLIPS~1\eclipse;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\native\win\x64\oci920_8"/>
+    <property name="WL_USE_IA64DLL" value="false"/>
+    <property name="LONG_DOMAIN_HOME" value="C:\Oracle\Middleware\Oracle_Home\user_projects\domains\base_domain"/>
+    <property name="PROFILE_CLASSPATH" value="C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\lib\weblogic_sp.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\lib\weblogic.jar"/>
+    <property name="COHERENCE_HOME" value="C:\Oracle\MIDDLE~1\ORACLE~1\coherence"/>
+    <property name="CONFIG_LAUNCH_JAR" value="C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\features\cieCfg_wls_lib_12.1.3.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\DLE4310\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\DLE4310\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="line.separator" value="
+"/>
+    <property name="BUILD_URL" value="http://localhost:7001/jenkins/job/CucumberTutorial/1/"/>
+    <property name="DOMAIN_HOME" value="C:\Oracle\MIDDLE~1\ORACLE~1\USER_P~1\domains\BASE_D~1"/>
+    <property name="M2_HOME" value="C:\apache-maven-3.3.9"/>
+    <property name="MEM_PERM_SIZE_32BIT" value="-XX:PermSize=128m"/>
+    <property name="=C:" value="C:\Oracle\Middleware\Oracle_Home\user_projects\domains\base_domain"/>
+    <property name="VM_TYPE" value="HotSpot"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="SERVER_CLASS" value="weblogic.Server"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="JAVA_VM" value="-server  "/>
+    <property name="CAM_NODEMANAGER_JAR_PATH" value="C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\modules\features\oracle.wls.common.nodemanager_2.0.0.0.jar"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="WLS_MEM_ARGS_64BIT" value="-Xms256m -Xmx512m"/>
+    <property name="HUDSON_SERVER_COOKIE" value="f09af314ce0bdfeb"/>
+    <property name="JRE_HOME" value="C:\PROGRA~1\Java\JDK18~1.0_9\jre"/>
+    <property name="MAVEN_HOME" value="C:\apache-maven-3.3.9"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\DLE4310\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.7.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="DERBY_CLASSPATH" value="C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\common\derby\lib\derbynet.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\common\derby\lib\derbyclient.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\common\derby\lib\derby.jar"/>
+    <property name="verboseLoggingFlag" value="false"/>
+    <property name="HOMEPATH" value="\Users\DLE4310"/>
+    <property name="MEM_ARGS_64BIT" value="-Xms256m -Xmx512m"/>
+    <property name="DEFAULT_SUN_JAVA_HOME" value="C:\PROGRA~1\Java\JDK18~1.0_9"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="PCL_JAR" value="C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\lib\pcl2.jar"/>
+    <property name="FMWCONFIG_CLASSPATH" value="C:\PROGRA~1\Java\JDK18~1.0_9\lib\tools.jar;C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\features\cieCfg_wls_lib_12.1.3.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\lib\weblogic_sp.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\lib\weblogic.jar;C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\net.sf.antcontrib_1.1.0.0_1-0b3\lib\ant-contrib.jar"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="maven3.interceptor" value="C:\Users\DLE4310\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.7.jar"/>
+    <property name="doExitFlag" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.3.9/bin;C:\Program Files\Java\jdk1.8.0_91/bin;C:\Program Files\Java\jdk1.8.0_91/bin;;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\native\win\x64;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\bin;C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\org.apache.ant_1.9.2\bin;C:\PROGRA~1\Java\JDK18~1.0_9\jre\bin;C:\PROGRA~1\Java\JDK18~1.0_9\bin;C:\PROGRA~1\Java\JRE18~1.0_1\bin\server;C:\PROGRA~1\Java\JRE18~1.0_1\bin;C:\PROGRA~1\Java\JRE18~1.0_1\lib\amd64;C:\PROGRA~3\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\112~1.0\server\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WINDOW~1\v1.0\;C:\PROGRA~2\Skype\Phone\;C:\PROGRA~2\MySQL\MYSQLF~1.5\;C:\PROGRA~2\MySQL\MYSQLF~1.5\DOCTRI~1\;C:\Users\DLE4310\DOWNLO~1\WILDFL~1.ALP\bin;C:\PROGRA~1\MongoDB\Server\3.2\bin;C:\PROGRA~2\Deployd\bin;C:\PROGRA~1\nodejs\;C:\PROGRA~1\Java\JDK18~1.0_9\bin;C:\APACHE~1.9\bin;C:\PROGRA~1\TORTOI~1\bin;C:\Users\DLE4310\AppData\Roaming\npm;C:\Users\DLE4310\AppData\Local\MICROS~1\WINDOW~1;C:\PROGRA~2\MICROS~4\bin;C:\Users\DLE4310\DOWNLO~1\ECLIPS~1\eclipse;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\native\win\x64\oci920_8;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="DERBY_HOME" value="C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\common\derby"/>
+    <property name="MEM_PERM_SIZE" value="-XX:PermSize=128m"/>
+    <property name="MEM_MAX_PERM_SIZE_64BIT" value="-XX:MaxPermSize=256m"/>
+    <property name="SAMPLES_HOME" value="C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\samples"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JOB_URL" value="http://localhost:7001/jenkins/job/CucumberTutorial/"/>
+    <property name="ANT_HOME" value="C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\org.apache.ant_1.9.2"/>
+    <property name="DERBY_FLAG" value="true"/>
+    <property name="JENKINS_HOME" value="C:\Users\DLE4310\.jenkins"/>
+    <property name="BEA_JAVA_HOME" value="@DEFAULT_BEA_JAVA_HOME"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="TEMP" value="C:\Users\DLE4310\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin"/>
+    <property name="M2" value="%M2_HOME%\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="2505"/>
+    <property name="JAVA_PROPERTIES" value="-Dwls.home=C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server -Dweblogic.home=C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server    "/>
+    <property name="WL_USE_X86DLL" value="false"/>
+    <property name="LAUNCH_COMPLETE" value="weblogic.store.internal.LockManagerImpl"/>
+    <property name="HUDSON_HOME" value="C:\Users\DLE4310\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\apache-maven-3.3.9/bin"/>
+    <property name="DATABASE_CLASSPATH" value="C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\common\derby\lib\derbynet.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\common\derby\lib\derbyclient.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\common\derby\lib\derby.jar"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DLE6410-PC"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="ARDIR" value="C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\lib"/>
+    <property name="WLS_DISPLAY_MODE" value="Development"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_91"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\DLE4310"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\DLE4310"/>
+    <property name="USERNAME" value="DLE4310"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="WL_HOME" value="C:\Oracle\MIDDLE~1\ORACLE~1\wlserver"/>
+    <property name="user.dir" value="C:\Users\DLE4310\workspaceneon\CucumberTutorial"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\DLE4310\AppData\Local\Temp"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="POST_CLASSPATH" value="C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\com.oracle.cie.config-wls-online_8.1.0.0.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\common\derby\lib\derbynet.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\common\derby\lib\derbyclient.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\common\derby\lib\derby.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\lib\xqrl.jar"/>
+    <property name="STARTUP_GROUP" value="AdminServerStartupGroup"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="FMWLAUNCH_CLASSPATH" value="C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\features\cieCfg_wls_lib_12.1.3.jar"/>
+    <property name="SYSTEM_LOADER" value="SystemClassLoader"/>
+    <property name="MW_HOME" value="C:\Oracle\MIDDLE~1\ORACLE~1"/>
+    <property name="WLS_MEM_ARGS_32BIT" value="-Xms256m -Xmx512m"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="java.class.path" value="C:\Users\DLE4310\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-agent-1.7.jar;C:\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;C:\apache-maven-3.3.9/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="MAVEN_OPTS" value="-Xms256m -Xmx512m"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="WORKSPACE" value="C:\Users\DLE4310\.jenkins\jobs\CucumberTutorial\workspace"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="__SHORT_PATH__" value="C:\PROGRA~1\Java\JRE18~1.0_1\bin\server;C:\PROGRA~1\Java\JRE18~1.0_1\bin;C:\PROGRA~1\Java\JRE18~1.0_1\lib\amd64;C:\PROGRA~3\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\112~1.0\server\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WINDOW~1\v1.0\;C:\PROGRA~2\Skype\Phone\;C:\PROGRA~2\MySQL\MYSQLF~1.5\;C:\PROGRA~2\MySQL\MYSQLF~1.5\DOCTRI~1\;C:\Users\DLE4310\DOWNLO~1\WILDFL~1.ALP\bin;C:\PROGRA~1\MongoDB\Server\3.2\bin;C:\PROGRA~2\Deployd\bin;C:\PROGRA~1\nodejs\;C:\PROGRA~1\Java\JDK18~1.0_9\bin;C:\APACHE~1.9\bin;C:\PROGRA~1\TORTOI~1\bin;C:\Users\DLE4310\AppData\Roaming\npm;C:\Users\DLE4310\AppData\Local\MICROS~1\WINDOW~1;C:\PROGRA~2\MICROS~4\bin;C:\Users\DLE4310\DOWNLO~1\ECLIPS~1\eclipse"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="JAVA_OPTIONS" value=" -Xverify:none -Djava.endorsed.dirs=C:\PROGRA~1\Java\JDK18~1.0_9\jre\lib\endorsed;C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\endorsed  -da -Dwls.home=C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server -Dweblogic.home=C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server    "/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\classes"/>
+    <property name="FEATURES_DIR" value="C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\features"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="SAVECP" value="C:\PROGRA~1\Java\JDK18~1.0_9\lib\tools.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\lib\weblogic_sp.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\lib\weblogic.jar;C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\net.sf.antcontrib_1.1.0.0_1-0b3\lib\ant-contrib.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\modules\features\oracle.wls.common.nodemanager_2.0.0.0.jar;C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\com.oracle.cie.config-wls-online_8.1.0.0.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\common\derby\lib\derbynet.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\common\derby\lib\derbyclient.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\common\derby\lib\derby.jar;C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\lib\xqrl.jar"/>
+    <property name="MEM_ARGS_32BIT" value="-Xms256m -Xmx512m"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_91/bin"/>
+    <property name="user.country" value="US"/>
+    <property name="=ExitCode" value="00000000"/>
+    <property name="DEBUG_PORT" value="8453"/>
+    <property name="MEM_PERM_SIZE_64BIT" value="-XX:PermSize=128m"/>
+    <property name="maven.home" value="C:\apache-maven-3.3.9"/>
+    <property name="debugFlag" value="false"/>
+    <property name="DERBY_OPTS" value="&quot;-Dderby.system.home=C:\Oracle\MIDDLE~1\ORACLE~1\USER_P~1\domains\BASE_D~1\common\db&quot;"/>
+    <property name="ANT_CONTRIB" value="C:\Oracle\MIDDLE~1\ORACLE~1\oracle_common\modules\net.sf.antcontrib_1.1.0.0_1-0b3"/>
+    <property name="MEM_MAX_PERM_SIZE_32BIT" value="-XX:MaxPermSize=256m"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="WLS_POLICY_FILE" value="C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\server\lib\weblogic.policy"/>
+    <property name="DERBY_TOOLS" value="C:\Oracle\MIDDLE~1\ORACLE~1\wlserver\common\derby\lib\derbytools.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase classname="org.soumya.com.selenium.test.NewTest" name="testEasy" time="6.196"/>
+  <testcase classname="org.soumya.com.selenium.test.SeleniumTest" name="test" time="4.566"/>
+</testsuite>
